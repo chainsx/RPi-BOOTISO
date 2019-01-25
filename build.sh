@@ -9,7 +9,7 @@ iso_name="ubuntu-18.04-server-arm64.iso"
 wget "http://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/ubuntu/releases/$release/release/$iso_name"
 
 # Extract the files from the iso to a directory server-raspi2
-7z x -oserver-raspi2 "$iso_name"
+7z x -o server-raspi2 "$iso_name"
 
 # Download the latest pi bootloader files
 wget http://archive.raspberrypi.org/debian/pool/main/r/raspberrypi-firmware/raspberrypi-bootloader_1.20180417-1_armhf.deb
