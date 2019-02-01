@@ -5,7 +5,7 @@ set -e
 
 # Download the iso
 release=bionic
-iso_name="ubuntu-18.04-server-arm64.iso"
+iso_name="ubuntu-18.04.1-server-arm64.iso"
 wget "http://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/ubuntu/releases/$release/release/$iso_name"
 
 # Extract the files from the iso to a directory server-raspi2
